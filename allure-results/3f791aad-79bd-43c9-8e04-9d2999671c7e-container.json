@@ -1,0 +1,1 @@
+{"uuid":"3f791aad-79bd-43c9-8e04-9d2999671c7e","name":"GraphqlTesting","children":["d9496b9d-c483-449b-8bc1-557747ee546d"],"befores":[{"name":"SetUpTestConnections","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1619433592732,"stop":1619433595079}],"afters":[],"links":[],"start":1619433592671,"stop":1619433598421}
