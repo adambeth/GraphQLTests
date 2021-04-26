@@ -1,6 +1,5 @@
 package RequestSpecifications;
 
-import io.qameta.allure.Step;
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
@@ -10,12 +9,18 @@ import org.testng.annotations.BeforeTest;
 public class Base {
 
 
-    public RequestSpecification EnvelGraphql;
+    public RequestSpecification QueryEnvelGraphql;
+    public RequestSpecification MutationEnvelGraphql;
 
     @BeforeTest
     public void SetUpTestConnections() {
         String url = "http://localhost:4000";
-        EnvelGraphql = new RequestSpecBuilder()
+        QueryEnvelGraphql = new RequestSpecBuilder()
+                .setContentType(ContentType.JSON)
+                .setBaseUri(url)
+                .build()
+                .filter(new AllureRestAssured());
+        MutationEnvelGraphql = new RequestSpecBuilder()
                 .setContentType(ContentType.JSON)
                 .setBaseUri(url)
                 .build()
