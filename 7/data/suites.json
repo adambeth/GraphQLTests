@@ -1,0 +1,47 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "MutationTests.MutationTests",
+        "children" : [ {
+          "name" : "Mutation",
+          "uid" : "1ae1854e021d57bc",
+          "parentUid" : "ce61d1fbb7f02defe3bf848d25838284",
+          "status" : "broken",
+          "time" : {
+            "start" : 1619516190665,
+            "stop" : 1619516192066,
+            "duration" : 1401
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ce61d1fbb7f02defe3bf848d25838284"
+      }, {
+        "name" : "QueryTests.GetAddressTests",
+        "children" : [ {
+          "name" : "GetAddressLines",
+          "uid" : "151e45085fdbaa1c",
+          "parentUid" : "4b3ad6517dacd8bccaed6fa5d209daf8",
+          "status" : "broken",
+          "time" : {
+            "start" : 1619516192105,
+            "stop" : 1619516192182,
+            "duration" : 77
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4b3ad6517dacd8bccaed6fa5d209daf8"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ],
+  "name" : "suites"
+}
