@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Tue Apr 27 09:47:29 GMT 2021","Tue Apr 27 09:47:31 GMT 2021","2050","Surefire suite","Surefire test","MutationTests.MutationTests","MutationTests.MutationTests","Mutation","Mutation",""
+"broken","Tue Apr 27 09:47:31 GMT 2021","Tue Apr 27 09:47:31 GMT 2021","141","Surefire suite","Surefire test","QueryTests.GetAddressTests","QueryTests.GetAddressTests","GetAddressLines","GetAddressLines",""

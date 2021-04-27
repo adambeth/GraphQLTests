@@ -1,0 +1,39 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Connection refused (Connection refused)",
+      "children" : [ {
+        "name" : "Mutation",
+        "uid" : "1ff6bec445b4f913",
+        "parentUid" : "f11cddb13f4b61ebafd8fd8eb5a0d5a2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619516849425,
+          "stop" : 1619516851475,
+          "duration" : 2050
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "GetAddressLines",
+        "uid" : "692a4b14f1362bf",
+        "parentUid" : "f11cddb13f4b61ebafd8fd8eb5a0d5a2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619516851566,
+          "stop" : 1619516851707,
+          "duration" : 141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f11cddb13f4b61ebafd8fd8eb5a0d5a2"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
