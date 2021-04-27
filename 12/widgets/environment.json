@@ -1,0 +1,10 @@
+[ {
+  "values" : [ "http://52.191.233.11:4000/" ],
+  "name" : "URL"
+}, {
+  "values" : [ "ENVEL" ],
+  "name" : "Company"
+}, {
+  "values" : [ "MockQL" ],
+  "name" : "Server"
+} ]
