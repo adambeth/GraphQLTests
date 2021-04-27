@@ -5,19 +5,22 @@ https://www.javadoc.io/doc/io.rest-assured/rest-assured/latest/io/restassured/bu
 
 package RequestSpecifications;
 import Queries.GraphQLQuery;
+import Queries.QueryHelper;
 import com.google.common.collect.ImmutableMap;
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+
 import static com.github.automatedowl.tools.AllureEnvironmentWriter.allureEnvironmentWriter;
 
 public class Base {
 
 
-    public RequestSpecification MutationEnvelGraphql;
-
+    public static RequestSpecification GraphQl;
+    public static QueryHelper queryHelper;
     public GraphQLQuery query;
 
 
@@ -26,7 +29,9 @@ public class Base {
 
         String url = "http://52.191.233.11:4000/";
         query = new GraphQLQuery();
-        MutationEnvelGraphql = new RequestSpecBuilder()
+;       queryHelper = new QueryHelper();
+
+        GraphQl = new RequestSpecBuilder()
                 .setContentType(ContentType.JSON)
                 .setBaseUri(url)
                 .build()

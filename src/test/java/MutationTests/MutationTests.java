@@ -15,13 +15,7 @@ public class MutationTests extends Base {
 
         //abstract method
         query.setQuery("mutation addUser($addressLine1 : String) {\r\n  addUser(addressLine1: $addressLine1){\r\n    active\r\n    addressLine1\r\n    addressLine2\r\n    city\r\n    \r\n  }\r\n}\r\n");
-        UserAddress variables = new UserAddress("hello");
-        query.setVariables(variables);
-        given()
-                .spec(MutationEnvelGraphql)
-                .body(query)
-                .when()
-                .post();
+        queryHelper.query(query);
 
     }
 }
