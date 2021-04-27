@@ -1,0 +1,44 @@
+{
+  "bb2f672b337a9fb3b61030c4623814a8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "83b35e1c7ec0d9e6",
+      "reportUrl" : "https://adambeth.github.io/GraphQLTests/3//#testresult/83b35e1c7ec0d9e6",
+      "status" : "broken",
+      "statusDetails" : "Connection refused (Connection refused)",
+      "time" : {
+        "start" : 1619513701899,
+        "stop" : 1619513702009,
+        "duration" : 110
+      }
+    } ]
+  },
+  "e650194e4a297827dc90b17ef701054f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "79424e4951638898",
+      "reportUrl" : "https://adambeth.github.io/GraphQLTests/3//#testresult/79424e4951638898",
+      "status" : "broken",
+      "statusDetails" : "Connection refused (Connection refused)",
+      "time" : {
+        "start" : 1619513700092,
+        "stop" : 1619513701848,
+        "duration" : 1756
+      }
+    } ]
+  }
+}
