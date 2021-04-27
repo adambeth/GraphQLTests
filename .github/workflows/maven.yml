@@ -15,8 +15,7 @@ jobs:
           java-version: 1.8
       - name: Test
         continue-on-error: true
-        run: mvn clean test
-
+        run: mvn clean test --file pom.xml
 
       - name: Get Allure history
         uses: actions/checkout@v2
