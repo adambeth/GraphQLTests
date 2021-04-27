@@ -32,7 +32,7 @@ jobs:
         ref: gh-pages
         path: gh-pages
 
-    - name: Creating Allure History
+    - name: 📂 Creating Allure History
       uses: simple-elf/allure-report-action@master
       if: always()
       id: allure-report
@@ -49,3 +49,9 @@ jobs:
         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: allure-history
+
+    - name: 🎁 Step 6 - Publishing Allure artifact to GitHub Actions
+      uses: actions/upload-artifact@v2
+      with:
+        name: allure-report
+        path: allure-report
