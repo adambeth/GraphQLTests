@@ -1,5 +1,9 @@
-package RequestSpecifications;
+/*
+https://www.javadoc.io/doc/io.rest-assured/rest-assured/latest/io/restassured/builder/RequestSpecBuilder.html
+ */
 
+
+package RequestSpecifications;
 import Queries.GraphQLQuery;
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.builder.RequestSpecBuilder;
@@ -8,7 +12,6 @@ import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.BeforeClass;
 
 public class Base {
-
 
 
     public RequestSpecification MutationEnvelGraphql;

@@ -9,8 +9,6 @@ import static io.restassured.RestAssured.given;
 public class GetAddressTests extends Base {
 
 
-
-
     @Test
     public void GetAddressLines() {
         GraphQLQuery query1 = new GraphQLQuery();
@@ -18,11 +16,8 @@ public class GetAddressTests extends Base {
         given()
                 .spec(MutationEnvelGraphql)
                 .body(query1)
-                .log().all()
                 .when()
-                .post()
-                .then()
-                .log().all();
+                .post();
 
     }
 
