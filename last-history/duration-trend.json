@@ -1,4 +1,9 @@
 [ {
+  "buildOrder" : 6,
+  "reportUrl" : "https://adambeth.github.io/GraphQLTests/6/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
   "buildOrder" : 5,
   "reportUrl" : "https://adambeth.github.io/GraphQLTests/5/",
   "reportName" : "Allure Report with history",
