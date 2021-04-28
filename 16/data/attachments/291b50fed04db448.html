@@ -1,0 +1,31 @@
+<div>POST to http://52.191.233.11:4000/</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    {
+    &quot;query&quot;: &quot;mutation addAddressNull($addressLine1 : String) {\r\n  addUser(addressLine1: $addressLine1){\r\n    active\r\n    addressLine1\r\n    addressLine2\r\n    city\r\n    \r\n  }\r\n}\r\n&quot;,
+    &quot;variables&quot;: {
+        &quot;addressLine1&quot;: 20
+    }
+}
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: */*</div>
+        <div>Content-Type: application/json; charset=UTF-8</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;http://52.191.233.11:4000/&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json; charset=UTF-8&#39; -d &#39;{
+    &quot;query&quot;: &quot;mutation addAddressNull($addressLine1 : String) {\r\n  addUser(addressLine1: $addressLine1){\r\n    active\r\n    addressLine1\r\n    addressLine2\r\n    city\r\n    \r\n  }\r\n}\r\n&quot;,
+    &quot;variables&quot;: {
+        &quot;addressLine1&quot;: 20
+    }
+}&#39;
+</div>

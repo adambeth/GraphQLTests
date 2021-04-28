@@ -1,0 +1,126 @@
+{
+  "uid" : "ec8599c304ae0a29",
+  "name" : "Address_Line1_Tests",
+  "fullName" : "MutationTests.MutationTests.Address_Line1_Tests",
+  "historyId" : "b0cb1659efbb1ab7c0ef2e666ac040b7",
+  "time" : {
+    "start" : 1619607166866,
+    "stop" : 1619607166965,
+    "duration" : 99
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUpTestConnections",
+    "time" : {
+      "start" : 1619607162358,
+      "stop" : 1619607164242,
+      "duration" : 1884
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "329ee9a80bbea477",
+      "name" : "Request",
+      "source" : "329ee9a80bbea477.html",
+      "type" : "text/html",
+      "size" : 1583
+    }, {
+      "uid" : "55e579647cd008ff",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "55e579647cd008ff.html",
+      "type" : "text/html",
+      "size" : 777
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "MutationTests.MutationTests"
+  }, {
+    "name" : "testClass",
+    "value" : "MutationTests.MutationTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Address_Line1_Tests"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "MutationTests.MutationTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az95-212"
+  }, {
+    "name" : "thread",
+    "value" : "3021@fv-az95-212.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "Trailing Spaces   "
+  }, {
+    "name" : "arg1",
+    "value" : "200"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "bc228810ef724127",
+        "reportUrl" : "https://adambeth.github.io/GraphQLTests/14//#testresult/bc228810ef724127",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619597663380,
+          "stop" : 1619597663418,
+          "duration" : 38
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ec8599c304ae0a29.json",
+  "parameterValues" : [ "Trailing Spaces   ", "200" ]
+}

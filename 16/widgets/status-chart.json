@@ -1,0 +1,71 @@
+[ {
+  "uid" : "ec8599c304ae0a29",
+  "name" : "Address_Line1_Tests",
+  "time" : {
+    "start" : 1619607166866,
+    "stop" : 1619607166965,
+    "duration" : 99
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c36b3e4f3a52413",
+  "name" : "Address_Line1_NULL_Tests",
+  "time" : {
+    "start" : 1619607164298,
+    "stop" : 1619607166320,
+    "duration" : 2022
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df4bc150de717f78",
+  "name" : "Address_Line1_Tests",
+  "time" : {
+    "start" : 1619607166533,
+    "stop" : 1619607166698,
+    "duration" : 165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3256e126c3e77b8f",
+  "name" : "Address_Line1_Tests",
+  "time" : {
+    "start" : 1619607166700,
+    "stop" : 1619607166861,
+    "duration" : 161
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74565e3d89934ca6",
+  "name" : "GetAddressLines",
+  "time" : {
+    "start" : 1619607167089,
+    "stop" : 1619607167183,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad015f2777d6f7b0",
+  "name" : "Address_Line1_Tests",
+  "time" : {
+    "start" : 1619607166357,
+    "stop" : 1619607166522,
+    "duration" : 165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d04c54d90599e8d0",
+  "name" : "Address_Line1_Tests",
+  "time" : {
+    "start" : 1619607166966,
+    "stop" : 1619607167083,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

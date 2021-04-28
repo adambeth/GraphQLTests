@@ -1,0 +1,126 @@
+{
+  "uid" : "df4bc150de717f78",
+  "name" : "Address_Line1_Tests",
+  "fullName" : "MutationTests.MutationTests.Address_Line1_Tests",
+  "historyId" : "a1dc5dfd258ffe6a5964089db6278c19",
+  "time" : {
+    "start" : 1619607166533,
+    "stop" : 1619607166698,
+    "duration" : 165
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUpTestConnections",
+    "time" : {
+      "start" : 1619607162358,
+      "stop" : 1619607164242,
+      "duration" : 1884
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "faef920bc8fadb72",
+      "name" : "Request",
+      "source" : "faef920bc8fadb72.html",
+      "type" : "text/html",
+      "size" : 1553
+    }, {
+      "uid" : "377b57f73068cf02",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "377b57f73068cf02.html",
+      "type" : "text/html",
+      "size" : 781
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "MutationTests.MutationTests"
+  }, {
+    "name" : "testClass",
+    "value" : "MutationTests.MutationTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Address_Line1_Tests"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "MutationTests.MutationTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az95-212"
+  }, {
+    "name" : "thread",
+    "value" : "3021@fv-az95-212.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "   "
+  }, {
+    "name" : "arg1",
+    "value" : "200"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6ee4cd46531a6b55",
+        "reportUrl" : "https://adambeth.github.io/GraphQLTests/14//#testresult/6ee4cd46531a6b55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619597663208,
+          "stop" : 1619597663304,
+          "duration" : 96
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "df4bc150de717f78.json",
+  "parameterValues" : [ "   ", "200" ]
+}

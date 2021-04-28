@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://adambeth.github.io/GraphQLTests",
+  "buildOrder" : 16,
+  "buildName" : "GitHub Actions Run #792358358",
+  "buildUrl" : "https://github.com/adambeth/GraphQLTests/actions/runs/792358358",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://adambeth.github.io/GraphQLTests/16/"
+} ]
