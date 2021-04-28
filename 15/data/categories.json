@@ -1,0 +1,39 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expecting a stackmap frame at branch target 132\nException Details:\n  Location:\n    Queries/QueryHelper.query(LQueries/GraphQLQuery;Ljava/lang/Integer;)Lio/restassured/response/Response; @20: invokestatic\n  Reason:\n    Expected stackmap frame at this location.\n  Bytecode:\n    0000000: 2b3a 052c 3a06 b200 682a 2a19 0519 06b8\n    0000010: 006e 3a04 b800 7419 04b6 0078 b800 02b2\n    0000020: 0003 b900 0402 002b b900 0502 00b9 0006\n    0000030: 0100 b900 0701 00c0 0008 b900 0901 00b9\n    0000040: 000a 0100 c000 0bb9 000c 0100 c000 0db9\n    0000050: 000e 0100 c000 0db9 000f 0100 b900 1001\n    0000060: 00c0 000d 2cb6 0011 b900 1202 00c0 000d\n    0000070: b900 1301 00b9 0014 0100 c000 0b4e 2d3a\n    0000080: 08a7 0010 3a07 b800 7419 07b6 007c 1907\n    0000090: bfb8 0074 b600 7f19 08b0               \n  Exception Handler Table:\n    bci [20, 132] => handler: 132\n",
+      "children" : [ {
+        "name" : "SetUpTestConnections",
+        "uid" : "5ac2ed83ff99a497",
+        "parentUid" : "11fbfd03378aa3abce60f14c57f4ce9d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619602653389,
+          "stop" : 1619602653391,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "SetUpTestConnections",
+        "uid" : "faee3af24192173d",
+        "parentUid" : "11fbfd03378aa3abce60f14c57f4ce9d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619602653516,
+          "stop" : 1619602653516,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "11fbfd03378aa3abce60f14c57f4ce9d"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

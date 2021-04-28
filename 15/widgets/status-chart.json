@@ -1,0 +1,51 @@
+[ {
+  "uid" : "6d3b7ccd555f172a",
+  "name" : "GetAddressLines",
+  "time" : {
+    "start" : 1619602653518,
+    "stop" : 1619602653518,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "3c071b19a2cdf6bc",
+  "name" : "Address_Line1_Tests",
+  "time" : {
+    "start" : 1619602653513,
+    "stop" : 1619602653513,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "faee3af24192173d",
+  "name" : "SetUpTestConnections",
+  "time" : {
+    "start" : 1619602653516,
+    "stop" : 1619602653516,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "eb38aafcb3689a3c",
+  "name" : "Address_Line1_NULL_Tests",
+  "time" : {
+    "start" : 1619602653489,
+    "stop" : 1619602653490,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "5ac2ed83ff99a497",
+  "name" : "SetUpTestConnections",
+  "time" : {
+    "start" : 1619602653389,
+    "stop" : 1619602653391,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
