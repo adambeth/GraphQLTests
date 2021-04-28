@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Apr 28 08:14:23 GMT 2021","Wed Apr 28 08:14:23 GMT 2021","47","Surefire suite","Surefire test","QueryTests.GetAddressTests","QueryTests.GetAddressTests","GetAddressLines","GetAddressLines",""
+"passed","Wed Apr 28 08:14:21 GMT 2021","Wed Apr 28 08:14:23 GMT 2021","1587","Surefire suite","Surefire test","MutationTests.MutationTests","MutationTests.MutationTests","Address_Line1_NULL_Tests","Address_Line1_NULL_Tests",""
+"passed","Wed Apr 28 08:14:23 GMT 2021","Wed Apr 28 08:14:23 GMT 2021","96","Surefire suite","Surefire test","MutationTests.MutationTests","MutationTests.MutationTests","Address_Line1_Tests","Address_Line1_Tests",""
+"passed","Wed Apr 28 08:14:23 GMT 2021","Wed Apr 28 08:14:23 GMT 2021","72","Surefire suite","Surefire test","MutationTests.MutationTests","MutationTests.MutationTests","Address_Line1_Tests","Address_Line1_Tests",""
+"passed","Wed Apr 28 08:14:23 GMT 2021","Wed Apr 28 08:14:23 GMT 2021","70","Surefire suite","Surefire test","MutationTests.MutationTests","MutationTests.MutationTests","Address_Line1_Tests","Address_Line1_Tests",""
+"passed","Wed Apr 28 08:14:23 GMT 2021","Wed Apr 28 08:14:23 GMT 2021","38","Surefire suite","Surefire test","MutationTests.MutationTests","MutationTests.MutationTests","Address_Line1_Tests","Address_Line1_Tests",""
+"passed","Wed Apr 28 08:14:23 GMT 2021","Wed Apr 28 08:14:23 GMT 2021","48","Surefire suite","Surefire test","MutationTests.MutationTests","MutationTests.MutationTests","Address_Line1_Tests","Address_Line1_Tests",""

@@ -1,0 +1,106 @@
+{
+  "uid" : "935764064c9d4704",
+  "name" : "Address_Line1_Tests",
+  "fullName" : "MutationTests.MutationTests.Address_Line1_Tests",
+  "historyId" : "123a2ed12d58a34c38a5f759bf12416b",
+  "time" : {
+    "start" : 1619597663419,
+    "stop" : 1619597663467,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUpTestConnections",
+    "time" : {
+      "start" : 1619597660318,
+      "stop" : 1619597661482,
+      "duration" : 1164
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ae52e12ed677bd71",
+      "name" : "Request",
+      "source" : "ae52e12ed677bd71.html",
+      "type" : "text/html",
+      "size" : 1577
+    }, {
+      "uid" : "ab53eedee53e54b6",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "ab53eedee53e54b6.html",
+      "type" : "text/html",
+      "size" : 777
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "MutationTests.MutationTests"
+  }, {
+    "name" : "testClass",
+    "value" : "MutationTests.MutationTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Address_Line1_Tests"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "MutationTests.MutationTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az92-687"
+  }, {
+    "name" : "thread",
+    "value" : "3052@fv-az92-687.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "!@#$   $%^&"
+  }, {
+    "name" : "arg1",
+    "value" : "200"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "935764064c9d4704.json",
+  "parameterValues" : [ "!@#$   $%^&", "200" ]
+}

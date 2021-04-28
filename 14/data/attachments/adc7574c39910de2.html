@@ -1,0 +1,52 @@
+<div>Status code 400 </div>
+
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    {
+    &quot;errors&quot;: [
+        {
+            &quot;message&quot;: &quot;Variable \&quot;$addressLine1\&quot; got invalid value 20; Expected type String. String cannot represent a non string value: 20&quot;,
+            &quot;locations&quot;: [
+                {
+                    &quot;line&quot;: 1,
+                    &quot;column&quot;: 25
+                }
+            ],
+            &quot;extensions&quot;: {
+                &quot;code&quot;: &quot;BAD_USER_INPUT&quot;,
+                &quot;exception&quot;: {
+                    &quot;stacktrace&quot;: [
+                        &quot;TypeError: String cannot represent a non string value: 20&quot;,
+                        &quot;    at GraphQLScalarType.coerceString [as parseValue] (/usr/src/app/node_modules/graphql/type/scalars.js:164:11)&quot;,
+                        &quot;    at coerceInputValueImpl (/usr/src/app/node_modules/graphql/utilities/coerceInputValue.js:127:26)&quot;,
+                        &quot;    at coerceInputValue (/usr/src/app/node_modules/graphql/utilities/coerceInputValue.js:37:10)&quot;,
+                        &quot;    at _loop (/usr/src/app/node_modules/graphql/execution/values.js:107:69)&quot;,
+                        &quot;    at coerceVariableValues (/usr/src/app/node_modules/graphql/execution/values.js:119:16)&quot;,
+                        &quot;    at getVariableValues (/usr/src/app/node_modules/graphql/execution/values.js:48:19)&quot;,
+                        &quot;    at buildExecutionContext (/usr/src/app/node_modules/graphql/execution/execute.js:184:61)&quot;,
+                        &quot;    at executeImpl (/usr/src/app/node_modules/graphql/execution/execute.js:89:20)&quot;,
+                        &quot;    at Object.execute (/usr/src/app/node_modules/graphql/execution/execute.js:64:35)&quot;,
+                        &quot;    at /usr/src/app/node_modules/apollo-server-core/dist/requestPipeline.js:261:48&quot;
+                    ]
+                }
+            }
+        }
+    ]
+}
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Keep-Alive: timeout=5</div>
+        <div>Access-Control-Allow-Origin: *</div>
+        <div>ETag: W/&quot;4d5-locbeCtZoGwo+NONmGIa1a6+X2g&quot;</div>
+        <div>Connection: keep-alive</div>
+        <div>Content-Length: 1237</div>
+        <div>Date: Wed, 28 Apr 2021 08:14:23 GMT</div>
+        <div>Content-Type: application/json; charset=utf-8</div>
+</div>
+
+

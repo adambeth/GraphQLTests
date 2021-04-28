@@ -1,0 +1,106 @@
+{
+  "uid" : "bc228810ef724127",
+  "name" : "Address_Line1_Tests",
+  "fullName" : "MutationTests.MutationTests.Address_Line1_Tests",
+  "historyId" : "b0cb1659efbb1ab7c0ef2e666ac040b7",
+  "time" : {
+    "start" : 1619597663380,
+    "stop" : 1619597663418,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUpTestConnections",
+    "time" : {
+      "start" : 1619597660318,
+      "stop" : 1619597661482,
+      "duration" : 1164
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "aab3e868c39d9a2e",
+      "name" : "Request",
+      "source" : "aab3e868c39d9a2e.html",
+      "type" : "text/html",
+      "size" : 1583
+    }, {
+      "uid" : "956e738cf051664b",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "956e738cf051664b.html",
+      "type" : "text/html",
+      "size" : 776
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "MutationTests.MutationTests"
+  }, {
+    "name" : "testClass",
+    "value" : "MutationTests.MutationTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Address_Line1_Tests"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "MutationTests.MutationTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az92-687"
+  }, {
+    "name" : "thread",
+    "value" : "3052@fv-az92-687.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "Trailing Spaces   "
+  }, {
+    "name" : "arg1",
+    "value" : "200"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bc228810ef724127.json",
+  "parameterValues" : [ "Trailing Spaces   ", "200" ]
+}

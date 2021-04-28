@@ -1,0 +1,106 @@
+{
+  "uid" : "ca92e54acf5bb80a",
+  "name" : "Address_Line1_Tests",
+  "fullName" : "MutationTests.MutationTests.Address_Line1_Tests",
+  "historyId" : "8ca9de202803f915a12708e2a46e962d",
+  "time" : {
+    "start" : 1619597663306,
+    "stop" : 1619597663376,
+    "duration" : 70
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUpTestConnections",
+    "time" : {
+      "start" : 1619597660318,
+      "stop" : 1619597661482,
+      "duration" : 1164
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8adbe0af9e49df92",
+      "name" : "Request",
+      "source" : "8adbe0af9e49df92.html",
+      "type" : "text/html",
+      "size" : 1577
+    }, {
+      "uid" : "e43f98d179cf3611",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "e43f98d179cf3611.html",
+      "type" : "text/html",
+      "size" : 776
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "MutationTests.MutationTests"
+  }, {
+    "name" : "testClass",
+    "value" : "MutationTests.MutationTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Address_Line1_Tests"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "MutationTests.MutationTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az92-687"
+  }, {
+    "name" : "thread",
+    "value" : "3052@fv-az92-687.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "  LeadingSpaces"
+  }, {
+    "name" : "arg1",
+    "value" : "200"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ca92e54acf5bb80a.json",
+  "parameterValues" : [ "  LeadingSpaces", "200" ]
+}
