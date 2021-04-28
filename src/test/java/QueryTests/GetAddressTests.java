@@ -11,7 +11,7 @@ public class GetAddressTests extends Base {
     public void GetAddressLines() {
 
         query.setQuery("{ allAddresses { id city } }");
-        queryHelper.query(query);
+        queryHelper.query(query,200);
 
     }
 
