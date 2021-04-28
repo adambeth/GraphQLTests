@@ -14,7 +14,7 @@ public class MutationTests extends Base {
     @DataProvider(name = "String Data")
     public Object[][] dpMethod(){
         return new Object[][] {
-                {"Line1",200},
+                {"Line2",200},
                 {"   ",200},
                 {"  LeadingSpaces",200},
                 {"Trailing Spaces   ",200},

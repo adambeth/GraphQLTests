@@ -28,6 +28,7 @@ public class Base {
     public void SetUpTestConnections() {
 
         String url = "http://52.191.233.11:4000/";
+
         query = new GraphQLQuery();
 ;       queryHelper = new QueryHelper();
 
