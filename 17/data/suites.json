@@ -1,0 +1,112 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "MutationTests.MutationTests",
+        "children" : [ {
+          "name" : "Address_Line1_NULL_Tests",
+          "uid" : "98a593d69ba19d21",
+          "parentUid" : "ce61d1fbb7f02defe3bf848d25838284",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619608722193,
+            "stop" : 1619608724080,
+            "duration" : 1887
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Address_Line1_Tests",
+          "uid" : "20c508bfa61605f4",
+          "parentUid" : "ce61d1fbb7f02defe3bf848d25838284",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619608724107,
+            "stop" : 1619608724245,
+            "duration" : 138
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Line2", "200" ]
+        }, {
+          "name" : "Address_Line1_Tests",
+          "uid" : "d43c031bcc626cdb",
+          "parentUid" : "ce61d1fbb7f02defe3bf848d25838284",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619608724255,
+            "stop" : 1619608724352,
+            "duration" : 97
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "   ", "200" ]
+        }, {
+          "name" : "Address_Line1_Tests",
+          "uid" : "577aed11b657162c",
+          "parentUid" : "ce61d1fbb7f02defe3bf848d25838284",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619608724354,
+            "stop" : 1619608724450,
+            "duration" : 96
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "  LeadingSpaces", "200" ]
+        }, {
+          "name" : "Address_Line1_Tests",
+          "uid" : "ffc163f05b2c1644",
+          "parentUid" : "ce61d1fbb7f02defe3bf848d25838284",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619608724454,
+            "stop" : 1619608724504,
+            "duration" : 50
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Trailing Spaces   ", "200" ]
+        }, {
+          "name" : "Address_Line1_Tests",
+          "uid" : "a955460447b8eae",
+          "parentUid" : "ce61d1fbb7f02defe3bf848d25838284",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619608724508,
+            "stop" : 1619608724561,
+            "duration" : 53
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "!@#$   $%^&", "200" ]
+        } ],
+        "uid" : "ce61d1fbb7f02defe3bf848d25838284"
+      }, {
+        "name" : "QueryTests.GetAddressTests",
+        "children" : [ {
+          "name" : "GetAddressLines",
+          "uid" : "548a6cb1bd3a35f0",
+          "parentUid" : "4b3ad6517dacd8bccaed6fa5d209daf8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619608724567,
+            "stop" : 1619608724616,
+            "duration" : 49
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4b3ad6517dacd8bccaed6fa5d209daf8"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ],
+  "name" : "suites"
+}
